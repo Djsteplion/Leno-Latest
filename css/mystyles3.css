@@ -266,12 +266,12 @@
 
 .configure1ai p, .configure3ai p{
     font-size: 12px;
+    padding-left: 0;
     text-align: left;
  }
 
  .configure1ai h4, .configure3ai h4{
-    text-align: start;
-    padding-left: 10px;
+    padding-left: 0px;
  }
 
  .configure1aii , .configure3aii{
@@ -279,10 +279,12 @@
   }
  
   .configure1ai, .configure3ai {
-    width: 95%;
-    margin-left: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 25px;
     margin-right: 10px;
-    
  }
 
 
@@ -315,12 +317,24 @@
     text-align: left; 
 }
 
+.tracking3a{
+    align-items:center;
+    justify-content: center;
+}
+
+.tracking3ai{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
 .tracking3ai h4{
-   padding-left: 8px;
+    text-align:start;
 }
 
 .tracking3ai p{
-    text-align: left;
+    text-align: start;
+    padding-left: 0;
 }
 
 .monitor{
@@ -381,7 +395,8 @@
     text-align: center;
     padding: 8px;
     font-size: 17px;
-    line-height: 25px;
+    line-height: 22px;
+    padding-top: 0px;
 }
 
 .previewinner{
@@ -405,30 +420,24 @@
 /* Fifth CONTAINER */
 /*********************/
 /********************/
+.fifth-inner{
+    padding: 25px 20px 25px 30px;
+}
 
 .details{
-    padding-left: 10px;
+    padding: 0;
 }
 
 .detailsImg{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
+    width: 90%;
 }
 
 .detailsImg img{
-    width: 99%;
-}
-
-.detailsText{
-    padding-top: 35px;
+    width: 100%;
 }
 
 .detailsText p{
  font-size: 15px;
- padding-right: 10px;
  padding-top: 7px;
 }
 
@@ -438,7 +447,7 @@
 }
 
 #calendars{
-    padding-left: 10px; 
+    padding-left: 0;
 }
 
 #users{
@@ -556,7 +565,7 @@ color: white;
     padding: 10px;
     font-size: 14px;
     padding-top: 0px;
-    line-height: 26.4px;
+    line-height: 20px;
 }
 
 .detailsText p{

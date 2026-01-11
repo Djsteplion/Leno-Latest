@@ -425,7 +425,7 @@ const observer8 = new IntersectionObserver((entries, observer) => {
             observer.unobserve(entry.target);
         }
     });
-}, { threshold: 0.25 });
+}, { threshold: 0.2 });
 
 const targetElements8 = document.querySelectorAll(
 '.trackingHeaderText, .trackingOtherText1, .trackingOtherText2, .positionRight');

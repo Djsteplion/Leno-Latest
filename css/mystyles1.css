@@ -236,7 +236,7 @@ p a {
     right: 0;
     position: fixed;
     background-color: black;
-    z-index: 4;
+    z-index: 2000;
     padding-top: 12px;
     transition: 0.5s;
     justify-content: flex-start;
@@ -318,6 +318,11 @@ p a {
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 15px;
+}
+
+#nav.scrolled {
+    background: rgba(15, 25, 35, 0.95);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -526,7 +531,7 @@ p a {
 @keyframes slideInLeft {
     from {
         opacity: 0;
-        transform: translateX(-150px);
+        transform: translateX(-110px);
     }
     to {
         opacity: 1;
@@ -537,7 +542,7 @@ p a {
 @keyframes slideInRight {
     from {
         opacity: 0;
-        transform: translateX(150px);
+        transform: translateX(110px);
     }
     to {
         opacity: 1;
@@ -889,6 +894,7 @@ p a {
 .configure1a{
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-bottom: 70px;
 }
 
@@ -924,7 +930,7 @@ p a {
 }
 
 .configure3a.is-visible{
-    animation: slideInRight 1s ease-out forwards;
+    animation: slideInLeft 1s ease-out forwards;
 }
 
 .configure3ai {
@@ -954,21 +960,22 @@ p a {
     background: #00C9DB;
     font-size: 40px;
     border-radius: 50%;
-    padding: 13px 15px;
+    padding: 15px;
     transition: 0.7s;
  }
 
  #comp1:hover{
     color: #00C9DB;
     background: white;
+    cursor: pointer;
  }
 
  #comp2{
     color: white;
     background: #00C9DB;
-    font-size: 35px;
+    font-size: 30px;
     border-radius: 50%;
-    padding: 13px;
+    padding: 15px 13px;
     transition: 0.7s;
  }
 
@@ -976,6 +983,7 @@ p a {
  #comp2:hover{
     color: #00C9DB;
     background: white;
+    cursor: pointer;
  }
 
 
@@ -984,7 +992,7 @@ p a {
     background: #00C9DB;
     font-size: 35px;
     border-radius: 50%;
-    padding: 15px 13px;
+    padding: 13px 15px;
     transition: 0.7s;
  }
 
@@ -992,6 +1000,7 @@ p a {
  #comp3:hover{
     color: #00C9DB;
     background: white;
+    cursor: pointer;
  }
 
 
@@ -1008,6 +1017,7 @@ p a {
  #comp4:hover{
     color: #00C9DB;
     background: white;
+    cursor: pointer;
  }
 
 
@@ -1025,6 +1035,7 @@ p a {
  #comp5:hover{
     color: #00C9DB;
     background: white;
+    cursor: pointer;
  }
 
 
@@ -1041,6 +1052,7 @@ p a {
  #comp6:hover{
     color: #00C9DB;
     background: white;
+    cursor: pointer;
  }
 
 
@@ -1096,7 +1108,8 @@ p a {
 
 .tracking3a{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    align-items: center; 
     padding-top: 30px;
 }
 
@@ -1228,7 +1241,10 @@ p a {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 1px solid lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00C9DB;;
     padding: 30px 35px;
     background-color: transparent;
     transition: ease-in-out 0.5s;
@@ -1243,9 +1259,18 @@ p a {
     text-decoration-line: none;
 }
 
+.play a:hover{
+    color: white;
+}
+
 .play:hover{
     cursor: pointer;
     background-color:#00C9DB;
+    border-color: transparent;
+}
+
+.play:hover a{
+    color: white;
 }
 
 
@@ -1268,10 +1293,10 @@ p a {
 
 .details{
     display: flex;
-    justify-content: space-around;
-    padding-top: 150px;
+    justify-content: space-between;
+    align-items: center;
     color: white;
-    clear: both;
+    padding: 30px 60px;
 }
 
 .positionRight.is-visible{
@@ -1292,9 +1317,6 @@ p a {
    padding-left: 30px;
 }
 
-#calendars{
-    padding-left: 50px;
-}
 .details p{
     padding-bottom: 40px;
     padding-top: 20px;
@@ -1485,7 +1507,7 @@ color: white;
 .EIGHT-INNER{
     display: flex; 
     justify-content: space-between;
-    padding: 100px 50px;
+    padding: 100px 60px;
     background: #262431;
     color: white;
     line-height: 30px;
