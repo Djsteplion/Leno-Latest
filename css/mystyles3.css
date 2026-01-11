@@ -275,7 +275,7 @@
  }
 
  .configure1aii , .configure3aii{
-    width: 4%;
+    width: 3%;
   }
  
   .configure1ai, .configure3ai {
@@ -283,7 +283,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-left: 35px;
+    margin-left: 40px;
     margin-right: 10px;
  }
 
@@ -575,6 +575,7 @@ color: white;
 
 
 }
+
 
 
 
