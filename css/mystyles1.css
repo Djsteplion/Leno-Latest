@@ -348,10 +348,10 @@ p a {
 }
 
 #face{
-    border:  5px solid #00C9DB ;
-    border-radius: 75%;
+    border:  3px solid #00C9DB ;
+    border-radius: 50%;
     background: #00C9DB;
-    padding: 5px 8px;
+    padding: 7px 8px;
  
 }
 
@@ -407,7 +407,9 @@ p a {
     margin-right: 20px;
 }
 
-
+.separate-color{
+    color: #00C9DB;
+}
 
 .button-container {
   display: flex;
