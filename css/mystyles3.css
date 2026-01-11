@@ -1,0 +1,569 @@
+@media  screen and ( max-width: 500px){
+
+
+    .logos{
+    width: 75px;
+    height: 50px;
+    }
+
+
+
+    .body{
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .first-inner{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .head-logo-and-links{
+        padding: 5px 10px;
+    }
+
+    .menu{
+        font-size: 15px!important;
+    }
+
+    .home-content-container{
+        padding-top: 50px;
+    }
+ 
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 17.5px;
+    }
+
+    .app-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 225px;
+        height: 63px;
+        border: 0.1px solid #00C9DB;
+        overflow: hidden;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 0;
+
+
+        color: #00C9DB;
+        background: transparent;
+        padding: 23px 40px;
+        border-radius: 32px;
+        font-weight: 580;
+        transition: 0.4s;
+    }
+
+    .app-button img {
+        height: 24px;
+    }
+
+
+}
+
+@media  screen and ( max-width: 500px){
+
+.body{
+        overflow-x: none!important;
+        overflow-y: hidden!important;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    
+
+    
+.mySidenav a{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 8px;
+    width: fit-content;
+}
+
+
+.positionLinkRight.is-visible{
+    animation: slideInRight 1.05s ease-in-out forwards;
+}
+
+.positionLinkLeft.is-visible{
+    animation: slideInLeft 1.05s ease-in-out forwards;
+}
+
+
+.menu-for-mobile{
+    display: block;
+    width: 100%;
+}
+
+.rest-menu{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  padding-top: 20px;   
+}
+
+.rest-menu img{
+    width: 70px;
+    height: 50px; 
+    margin-left: -40px;
+}
+
+.mob-menu{
+   
+    padding-top: 8px;
+    margin-right: -80px;
+}
+
+/*********************/
+/*********************/
+/* FIRST CONTAINER */
+/*********************/
+/*********************/
+
+.div1{
+    padding: 30px 12px;
+    box-sizing: border-box;
+}
+
+
+@keyframes slideInCenterMobile {
+  0% {
+        font-size: 0px;
+        opacity: 0;
+    }
+20% {
+        font-size: 5px;
+        opacity: 0.2;
+    }
+40% {
+        font-size: 10px;
+        opacity: 0.4;
+    }
+60% {
+        font-size: 15px;
+        opacity: 0.6;
+    }
+    
+80% {
+        font-size: 19px;
+        opacity: 0.8;
+    }
+    
+100% {
+        font-size: 23px;
+        opacity: 1;
+    }
+
+}
+
+.div1 h1{
+ font-size: 23px;
+ opacity: 0;
+}
+
+.div1.is-visible h1{
+    animation: slideInCenterMobile 1.15s ease-out forwards;
+}
+
+.div1 p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.div2{
+    padding: 20px;
+}
+
+   .link-buttons{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .link-buttons a{
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    background: #00C9DB;
+    border-radius: 8px;
+    font-weight: 200;
+    transition: 0.5s;
+    
+}
+
+   #apple{
+     margin-left: 15px ;
+   }
+
+.link-buttons a:hover{
+    color: #00C9DB;
+    padding: 8px 12px;
+    background: transparent;
+    border-radius: 8px;
+    font-weight: 200;
+    cursor: pointer;
+    
+}
+
+
+
+
+/*********************/
+/*********************/
+/* THIRD CONTAINER */
+/*********************/
+/*********************/
+
+.third-inner p{
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.latch-menu{
+    display: block;
+    text-align: center;
+}
+
+.latch1{
+    margin-right: 40px;
+    margin-left: 40px; 
+    padding-left: 40px;
+   text-align: center;
+   
+}
+
+.latch2{
+    display: block;
+    padding-left: 0px!important;
+    padding-right: 0px; 
+    margin-right: 40px;
+    margin-left: 38px;
+    margin-top: 20px;
+    
+
+}
+
+.latch3{
+    display: block; 
+    margin-right: 27px;
+    margin-left: 24px;
+    margin-top: 15px;
+    padding-left: 12.5px;
+    text-align: center;
+}
+
+.configuring{
+    padding-left: 5px;
+}
+
+.configure1ai p, .configure3ai p{
+    font-size: 12px;
+    text-align: left;
+ }
+
+ .configure1ai h4, .configure3ai h4{
+    text-align: start;
+    padding-left: 10px;
+ }
+
+ .configure1aii , .configure3aii{
+    width: 5%;
+  }
+ 
+  .configure1ai, .configure3ai {
+    width: 95%;
+    margin-left: 45px;
+    margin-right: 10px;
+    
+ }
+
+
+  .configure2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .track{
+    padding-left: 10px;
+ }
+
+ .trackingImg img{
+    width: 100%;
+    padding-left: 20px;  
+    
+}
+
+ .trackingOtherText{
+    padding-left: 10px;
+ }
+
+ .trackingHeaderText h1{
+    padding-left: 20px;
+}
+
+.trackingHeaderText p{
+    padding-left: 20px; 
+    text-align: left; 
+}
+
+.tracking3ai h4{
+   padding-left: 8px;
+}
+
+.tracking3ai p{
+    text-align: left;
+}
+
+.monitor{
+    padding-left: 10px;
+}
+
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(120px);
+        transition: all 0.8s ease;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+.monitoringFooterText.is-visible{
+    animation: slideInUp 1.15s ease-out forwards;
+}
+
+.monitoringFooterText h1 , .monitoringFooterText p{
+    padding-left: 35px;
+  }
+
+ .monitoringFooterText p{
+    text-align: left;
+ }
+
+ .monitoringImg{
+    width: 100%;
+    padding-left: 15px;
+ }
+
+ .monitoringImg.is-visible{
+    animation: slideInUp 1.15s ease-out forwards;
+ }
+
+ .monitoringImg img{
+   width: 100%;
+ }
+
+ /*********************/
+/*********************/
+/* FOURTH CONTAINER */
+/*********************/
+/*********************/
+
+.fourth-inner{
+   background-position: center;
+   background-size: contain;
+}
+
+
+.previewText p{
+    text-align: center;
+    padding: 8px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.previewinner{
+    margin: 18px;
+    background-position: center;
+    height: 205px;
+}
+
+.play{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid lightseagreen;
+    padding: 15px 17.5px;
+    background-color: transparent;
+    transition: ease-in-out 0.5s;
+}
+
+/*********************/
+/*********************/
+/* Fifth CONTAINER */
+/*********************/
+/********************/
+
+.details{
+    padding-left: 10px;
+}
+
+.detailsImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.detailsImg img{
+    width: 99%;
+}
+
+.detailsText{
+    padding-top: 35px;
+}
+
+.detailsText p{
+ font-size: 15px;
+ padding-right: 10px;
+ padding-top: 7px;
+}
+
+.lightboxbtn{
+     padding: 15px 30px;
+     margin-top: -20px;
+}
+
+#calendars{
+    padding-left: 10px; 
+}
+
+#users{
+    font-size: 10px;
+}
+
+.achievements{
+   padding: 7px;
+   padding-top: 22px;
+}
+
+.numba{
+font-size: 10px;
+color: white;
+}
+
+.happy p{
+    line-height: 15px;
+    font-size: 10px;
+}
+
+/*********************/
+/*********************/
+/* SEVENTH CONTAINER */
+/*********************/
+/*********************/
+
+.Seventh-text h4{
+    font-size: 17px ;
+}
+
+
+.links-buttons a{
+    padding: 6px 7px;
+    background: #00C9DB;
+    border-radius: 15px;
+    font-weight: 80;
+    transition: 0.4s;
+    font-size: 13px;
+    margin: 10px;
+    
+}
+
+.links-buttons a:hover{
+    color: #00C9DB;
+    text-decoration-line: none;
+    border: 1px solid #00C9DB;
+    padding: 6px 7px;
+    background: transparent;
+    border-radius: 10px;
+    font-weight: 80;
+    cursor: pointer;
+    
+}
+
+.links-buttons{
+   display: flex;
+   flex-direction: column;
+   margin: 40px;
+}
+
+.Seventh-image{
+    width:100%;
+    padding-top: 35px;
+}
+.Seventh-image img{
+    width: 70%;
+}
+
+
+
+/*********************/
+/*********************/
+/* EIGHT-CONTAINER */
+/*********************/
+/********************/
+
+
+.EIGHT-INNER{
+    padding-left: 32.5px;
+}
+
+.copywright{
+    padding-left: 32.5px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+@media  screen and ( max-width: 400px){
+.div1{
+    padding: 30px 7.5px;
+}
+
+.div1 h1{
+ font-size: 15px;
+}
+
+.div1 p{
+    font-size: 11.5px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.previewText p{
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    padding-top: 0px;
+    line-height: 26.4px;
+}
+
+.detailsText p{
+ line-height: 27px;
+}
+
+
+
+}
+
