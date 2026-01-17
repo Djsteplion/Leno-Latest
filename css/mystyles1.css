@@ -26,6 +26,7 @@ body {
     background: linear-gradient(135deg, #0a0a0f 0%, #151520 25%, #1a1a2e 50%, #16213e 75%, #0f3460 100%);
     background-attachment: fixed;
     color: rgb(48, 48, 193);
+	font-family: "Montserrat", sans-serif;
 }
 
 p a {
@@ -211,6 +212,7 @@ p a {
     padding: 20px 0;
     position: relative;
     overflow: hidden;
+	font-family: "Montserrat", sans-serif;
 }
 
 
@@ -223,6 +225,7 @@ p a {
     top: 0;
     left: 0;
     right: 0;
+	font-family: "Montserrat", sans-serif;
 }
 
 .head{
@@ -242,6 +245,7 @@ p a {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+	font-family: "Montserrat", sans-serif;
 }
 
 .positionLinkRight.is-visible{
@@ -270,6 +274,7 @@ p a {
     margin: 5px 0px;
     color: white;
     transition:ease-in 0.6s;
+	font-family: "Montserrat", sans-serif;
 }
 
 .mySidenav a:hover{
@@ -318,6 +323,7 @@ p a {
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 15px;
+	font-family: "Montserrat", sans-serif;
 }
 
 #nav.scrolled {
@@ -437,7 +443,7 @@ p a {
   cursor: pointer;
   font-size: 18px;
   z-index: 0;
-
+  font-family: "Montserrat", sans-serif;
 
 
     color: #00C9DB;
@@ -685,6 +691,7 @@ p a {
 
 .second-inner{
    background: #262431;
+	font-family: "Montserrat", sans-serif;
 }
       
 /************************/
@@ -1572,6 +1579,7 @@ color: white;
 .copywright p:hover{
     cursor: pointer;
 }
+
 
 
 
